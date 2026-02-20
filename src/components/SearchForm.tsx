@@ -27,13 +27,13 @@ export default function SearchForm() {
         value={city}
         onChange={(e) => setCity(e.target.value)}
         placeholder="Enter a city name..."
-        className="flex-1 rounded-lg border border-gray-300 bg-white px-4 py-2.5 text-gray-800 shadow-sm placeholder:text-gray-400 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-200"
+        className="flex-1 rounded-lg border border-gray-300 bg-white px-4 py-2.5 text-gray-800 shadow-sm placeholder:text-gray-400 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100 dark:placeholder:text-gray-500 dark:focus:border-blue-500 dark:focus:ring-blue-800"
         maxLength={100}
         autoComplete="off"
       />
       <button
         type="submit"
-        className="rounded-lg bg-blue-600 px-6 py-2.5 font-medium text-white shadow-sm transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300"
+        className="rounded-lg bg-blue-600 px-6 py-2.5 font-medium text-white shadow-sm transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-800"
       >
         Search
       </button>

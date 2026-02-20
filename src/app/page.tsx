@@ -25,9 +25,9 @@ export default async function HomePage({ searchParams }: PageProps) {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-blue-50 to-sky-100 px-4 py-10">
+    <main className="min-h-screen bg-gradient-to-b from-blue-50 to-sky-100 dark:from-gray-900 dark:to-gray-800 px-4 py-10">
       <div className="mx-auto max-w-5xl">
-        <h1 className="mb-8 text-center text-3xl font-bold text-gray-800">
+        <h1 className="mb-8 text-center text-3xl font-bold text-gray-800 dark:text-gray-100">
           5-Day Weather Forecast
         </h1>
 
@@ -38,7 +38,7 @@ export default async function HomePage({ searchParams }: PageProps) {
         </div>
 
         {!city && (
-          <p className="text-center text-gray-500">
+          <p className="text-center text-gray-500 dark:text-gray-400">
             Search for a city to see its weather forecast.
           </p>
         )}
